@@ -1,0 +1,196 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  background-color: rgb(236, 231, 231);
+}
+
+.App{
+   display: block;
+   padding: 4rem;
+  
+}
+
+.Face{
+  color: rgb(7, 124, 250);
+  font-size: 1.5rem;
+}
+
+.Father{
+  margin-bottom: 60px;
+  text-align: center;
+ 
+}
+
+.Contenedor-Dates{
+  margin-bottom: 35px;
+  
+}
+.DatosInputs{
+  padding: 1rem;
+}
+
+.Contenedor-Dates input{
+  width: 200px;
+  border-color: gray;
+ }
+
+.Contenedor-inputs{
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  margin-left: 500px;
+  border-radius: 8px;
+ }
+
+ .Contenedor-inputs button{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(7, 124, 250);
+    border-color: rgb(7, 124, 250);
+    color: white;
+    cursor: pointer;
+ }
+ .Contenedor-inputs button:hover{
+  background-color:rgb(7, 100, 199) ;
+ }
+
+ .Contenedor-Dates input{
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+  
+}
+
+.Datos{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px ,auto));
+  gap: 6rem;
+}
+
+.Counter{
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  border-color: black;
+}
+.Counter:hover{
+  background-color: rgb(255, 253, 253);
+ 
+}
+
+.Counter button{
+  width: 30px;
+  height: 30px;
+  color: rgb(10, 10, 10);
+  cursor: pointer;
+}
+.Delet button{
+  background-color: red;
+  border-color: red;
+  cursor: pointer;
+}
+
+.Buton{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1.5rem;
+  position: relative;
+  left: 180px;
+ 
+  width: 100px;
+  height: 20px;
+ }
+
+.Users{
+  padding: 1rem;
+}
+
+.Users h3{
+  margin: 10px auto;
+ 
+}
+.Users i{
+  width: 20px;
+  color: black;
+  
+}
+h1{
+  margin: 20px auto;
+}
+
+.Counter h2{
+ padding: 10px;
+ text-align: center;
+ 
+}
+
+.Footer{
+  background-color:white;
+  width: 2000px;
+  position: relative;
+  left: -100px;
+  bottom: -70px;
+  height: 250px;
+}
+
+.Contenedor-Footer{
+   display: block;
+   margin: 50px auto;
+   margin-left: 400px;
+   padding: 2rem;
+  
+}
+
+section{
+  margin: 10px auto;
+}
+
+.Meta{
+  position: absolute;
+  bottom: 10px;
+}
+
+
+/* medias queris   */ 
+
+@media screen and (max-width:576px){
+
+     .Contenedor-inputs{
+      display: block;
+      margin-left: -8px;
+     }
+
+     .Datos{
+        display: grid;
+        margin-left: 30px;
+     }
+
+     .Footer{
+      height: 500px;
+     }
+
+     .Contenedor-Footer {
+        margin-left: -60px;
+        margin-left: 60px;
+        width: 200px;
+        height: 30px;
+      }
+
+      .Contenedor-Footer section{
+        margin-bottom: 15px;
+      }
+}
