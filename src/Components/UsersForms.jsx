@@ -62,7 +62,7 @@ const UsersForms = ({getUsers, usersSelection , selectionUser}) => {
     return (
         <form className='Father' onSubmit={handleSubmit(submit)}>
             <div className='Face'>  
-            <h1>facebook</h1>
+            <h1>Users</h1>
             </div>
             <div className='Contenedor-inputs'>
             <div className='DatosInputs'>  
